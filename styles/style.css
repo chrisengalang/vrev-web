@@ -108,3 +108,23 @@ header > div.logo {
 .content > section > div > p {
     text-justify: auto;
 }
+
+.content > section.centered-section {
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    max-width: 3%;
+    height: auto;
+}
+
+.footer {
+    display: flex;
+    background: rgb(200, 200, 200);
+}
+
+.icon-list {
+    display: flex;
+    column-gap: 1em;
+}
